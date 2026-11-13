@@ -1,0 +1,25 @@
+#countDiv {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically (optional) */
+  padding: 10%;
+  border: solid, black, 2px;
+  margin: 1%;
+}
+
+p {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+#buttons{display:flex;
+align-content: center;
+justify-content: center;
+}
+
+button{padding-left: 10px;
+margin-left: 10px;
+width: 0 auto;
+font-size: medium;
+font-weight: 600;}
+
