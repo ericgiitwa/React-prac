@@ -3,9 +3,15 @@ import "./App.css";
 
 function App() {
   const [count, setCount] = useState(0);
-
   return (
+  
     <div>
+        <div id='darkMode-div'>
+    <button onClick={()=>{
+      document.getElementById('root').style.backgroundColor='grey'
+    }}>Dark Mode</button>
+
+    </div>
       <div id="countDiv">
         <p>{count}</p>
       </div>
@@ -19,14 +25,14 @@ function App() {
         </button>
         <button
           onClick={() => {
-            setCount(count + 1);
+            setCount(count +1 );
           }}
         >
           +
         </button>
         <button
           onclick={() => {
-            setCount((count = 0));
+            setCount(count = 0);
           }}
         >
           Reset
@@ -34,5 +40,9 @@ function App() {
       </div>
     </div>
   );
+}
+
+function darkMode(){
+
 }
 export default App;
